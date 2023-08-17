@@ -26,6 +26,10 @@ body {
   background: #0f0f0f;
 }
 
+.App {
+  background: #fff2ca;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -294,8 +298,7 @@ ul#nav li.current a {
   padding-right: 10%;
 }
 
-.education,
-.work {
+.sectionitem {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #313131;
@@ -1028,10 +1031,11 @@ call-to-action .button {
 footer {
   padding-top: 48px;
   margin-bottom: 48px;
-  color: #303030;
+  color: #fff;
   font-size: 14px;
   text-align: center;
   position: relative;
+  background-color: #090713;
 }
 
 footer a,
@@ -1112,7 +1116,7 @@ footer .social-links li:first-child {
   border-radius: 100%;
 }
 #go-top a:hover {
-  background-color: #0f9095;
+  background-color: #f4da87;
 }
 
 /* .social .btn:first-child {
@@ -1134,4 +1138,26 @@ footer .social-links li:first-child {
 
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.imageContainerOutside {
+  /* min-height: 500px; */
+  /* width: max-content; */
+  /* height: 100px; */
+  /* background-color: green; */
+  position: relative;
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
+}
+.imageContainerInside {
+  /* background-color: purple; */
+  position: absolute;
+  height: 100%;
+  width: 1000px;
+}
+
+.introText {
+  /* background-color: blue; */
+  /* max-width: 50vw; */
 }
