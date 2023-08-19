@@ -71,7 +71,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
   /* font: 18px/1.9em 'librebaskerville-regular', serif; */
-  font: 18px/1.9em 'opensans', serif;
+  font: 18px/1.9em 'opensans', sans-serif;
   color: #ddd;
   margin: auto;
   width: 70%;
